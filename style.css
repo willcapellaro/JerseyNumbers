@@ -49,7 +49,7 @@ li.playerBox {
 	padding-right: 20px;
 	padding-top: 5px;
 	font-family: "FFF World Cup 2018 Adidas", Trebuchet, "Work Sans", arial;
-	font-weight: 100;
+	font-weight: 500;
 
 }
 
@@ -60,7 +60,7 @@ ul {
 
 li {
 	transition: all .2s ease-in-out;
-	margin-bottom: 4vh;
+	margin-bottom: 30px;
 	font-size: 24px;
 	text-transform: uppercase;
 }
@@ -171,7 +171,7 @@ ul {
 
 li {
 	transition: all .2s ease-in-out;
-	margin-bottom: 4vh;
+	margin-bottom: 30px;
 	font-size: 24px;
 	text-transform: uppercase;
 }

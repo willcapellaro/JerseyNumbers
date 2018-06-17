@@ -1,0 +1,179 @@
+body {
+	background: linear-gradient(to right, rgb(50,116,78) 0%,green 50%,white 50%,lightgrey 100%); /* W3C */
+	display: grid;
+    grid-template-columns: repeat(2, 1fr) 100px repeat(2, 1fr);
+    grid-template-rows: 100px 1000px;
+    font-family: "Work Sans", arial;
+    font-weight: 600;
+    text-align: left;
+    font-size: 18px;
+}
+
+/*.body h2:nth-child(1) {
+	grid-column: 0 / 1;
+	grid-row: 0 / 1;
+	background-color: red;
+}*/
+
+h1 {
+	grid-column: 1 / -1;
+	grid-row: 0 / 1;
+	color: darkgrey;
+	display: inline;
+	text-align: center;
+	width: 200px;
+	margin: auto;
+	padding: 10px;
+    border-radius: 5px;
+	font-size: 20px;
+	background-color: white;
+	-webkit-box-shadow: -1px 9px 29px -9px rgba(0,0,0,0.32);
+	-moz-box-shadow: -1px 9px 29px -9px rgba(0,0,0,0.32);
+	box-shadow: -1px 9px 29px -9px rgba(0,0,0,0.32);
+}
+
+h2 {
+	font-size: 16px;
+}
+
+li.playerBox {
+	display: grid;
+    grid-template-columns: 75px auto;
+    hyphens: none;
+
+}
+
+.number {
+	font-size: 55px;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 5px;
+	font-family: "FFF World Cup 2018 Adidas", Trebuchet, "Work Sans", arial;
+	font-weight: 100;
+
+}
+
+ul {
+    list-style-type: none;
+    line-height: 22px;
+}
+
+li {
+	transition: all .2s ease-in-out;
+	margin-bottom: 4vh;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+li:hover{
+	font-weight: 700;
+	transform: scale(1.2);
+}
+
+
+@media screen and (min-width: 992px) {
+.team1c1 {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	color: white;
+/*	background-color: red;
+*/}
+
+.team1c2 {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	color: white;
+/*	background-color: orange;
+*/}
+
+.team2c1 {
+	grid-column: 4 / 5;
+	grid-row: 2 / 3 ;
+	color: navy;
+/*	background-color: teal;
+*/}
+
+.team2c2 {
+	grid-column: 5 / 6;
+	grid-row: 2 / 3 ;
+	color: navy;
+/*	background-color: yellow;
+*/}}
+
+
+@media screen and (max-width: 990px) {
+
+	body {
+	background: white; /* W3C */
+	display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+
+}
+
+h1 	{
+	grid-column: 0 / 1;
+	grid-row: 1 / 2;
+	font-size: 44px;
+	width: 800px;
+}
+
+.team1c1 {
+	padding-top: 100px;
+	grid-column: 0 / 1;
+	grid-row: 2 / 3;
+	color: white;
+	background: linear-gradient(to right, rgb(50,116,78) 0%,green 100%); /* W3C */
+}
+
+.team1c2 {
+	grid-column: 0 / 1;
+	grid-row: 3 / 4;
+	color: white;
+	background: linear-gradient(to right, rgb(50,116,78) 0%,green 100%); /* W3C */
+}
+
+.team2c1 {
+	padding-top: 100px;
+	grid-column: 0 / 1;
+	grid-row: 4 / 5 ;
+	color: navy;
+	background: linear-gradient(to right, white 50%,lightgrey 100%); /* W3C */
+}
+
+li:hover {
+	transform: scale(1);
+}
+
+.team2c2 {
+	grid-column: 0 / 1;
+	grid-row: 5 / 6 ;
+	color: navy;
+	background: linear-gradient(to right, white 50%,lightgrey 100%); /* W3C */
+}
+
+li.playerBox {
+	display: grid;
+    grid-template-columns: 130px auto;
+    hyphens: none;
+
+}
+
+.number {
+	font-size: 80px;
+	text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 22px;
+}
+
+li {
+	transition: all .2s ease-in-out;
+	margin-bottom: 4vh;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+}
+
